@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 200vh;
+}
+
+.arrow {
+    position: fixed;
+    font-size: 60px;
+    right: 40px;
+    bottom: 40px;
+    transition: 0.5s;
+}
+
+.arrow.on {
+    bottom: 310px;
+    transform: rotate(180deg)
+}
+
+p {
+    margin: 20px 50px;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    bottom: -170px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+nav.on {
+    bottom: 0;
+}
